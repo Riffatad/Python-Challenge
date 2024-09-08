@@ -1,19 +1,19 @@
 # Python-Challenge
-        # PYBANK
+# PYBANK
         
-# Data importing with os
+        # Data importing with os
 
-# Define file paths
+        # Define file paths
 
-# Check if the file exists
+        # Check if the file exists
 
-# Open the CSV file
+        # Open the CSV file
 
-# Read and skip the header row
+        # Read and skip the header row
 
-# Ensure there is at least one data row
+        # Ensure there is at least one data row
 
-# Initialize variables
+        # Initialize variables
 
         # Total sum of the values
         # Count of the number of months
@@ -24,61 +24,33 @@
         # Date of the highest change
         # Date of the lowest change
 
-# Process the first row
+        # Process the first row
         # Initialize the previous_row value
         # Add the first value to the total sum
         # Increment the count of months
 
         
-# Iterate through the remaining rows
+        # Iterate through the remaining rows
 
          # Convert the current value to an integer
+        
+        # Calculate the difference between the current and previous values
 
-# Calculate the difference between the current and previous values
+        # Update the highest and lowest changes
 
-# Update the highest and lowest changes
+        # Update the total sum and previous_row for the next iteration
 
-# Update the total sum and previous_row for the next iteration
+        # Calculate the average change, handle case with less than 2 months
 
-# Calculate the average change, handle case with less than 2 months
+        # Prepare the output content
 
-# Prepare the output content
+        # Write the output content to the file
 
-# Write the output content to the file
-
-# Inform the user that the results have been written
+        # Inform the user that the results have been written
           
           
           
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          #PYPOLL
+#PYPOLL
 Instructions
 The task of this challenge is to integrate a faster and accurte vote count process for a small, rural town.
 
