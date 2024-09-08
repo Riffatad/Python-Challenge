@@ -1,22 +1,23 @@
 # Python-Challenge
 # PYBANK
         
-# The Challenge is to create a Python Script to analyze a company's financial records. The data set is in a csv file, and it has two columns. Column 1 "Date" and Column 2 "Profit/Loss"
+        # The Challenge is to create a Python Script to analyze a company's financial records. The data set is in a csv file, and it has two columns. Column 1 "Date" and Column 2 "Profit/Loss"
 
-The Script will calculate each of the following values through Python Script.
-* The total number of months included in the dataset
+        The Script will calculate each of the following values through Python Script.
+        * The total number of months included in the dataset
 
-* The net total amount of "Profit/Losses" over the entire period
+        * The net total amount of "Profit/Losses" over the entire period
 
-* The changes in "Profit/Losses" over the entire period, and then the average of those changes
+        * The changes in "Profit/Losses" over the entire period, and then the average of those changes
 
-* The greatest increase in profits (date and amount) over the entire period
+        * The greatest increase in profits (date and amount) over the entire period
 
-* The greatest decrease in profits (date and amount) over the entire period
+        * The greatest decrease in profits (date and amount) over the entire period
 
-The result should match the following:
+        The result should match the following:
 
-Example Output should be like this:
+        Example Output should be like this:
+        
 Financial Analysis
 ----------------------------
 Total Months: 86
@@ -79,10 +80,11 @@ If the header row does not have data after header row it prompts error message a
           -------------------------
         Also, the final script should not only print the analysis to the terminal and export a text file with the results.
         
-Open and read the Election_data csv file. It should contain three columns 
-The script reads the csv and there is an error check if file does not exist the code will stop and exit.
-Next it counts the total number of votes overall.
-Then it counts the votes each candidate receives.
-Then the average number of votes and percentage of total votes per candidate will be calculated
-Once each candidate’s number of votes and percentage of total votes is calculated the winner will be decided based on the greatest number of votes one candidate receives.
-Out put will be displayed on the terminal and saved in the Election_Results in Analysis folder. 
+        Open and read the Election_data csv file. It should contain three columns 
+        
+        The script reads the csv and there is an error check if file does not exist the code will stop and exit.
+        Next it counts the total number of votes overall.
+        Then it counts the votes each candidate receives.
+        Then the average number of votes and percentage of total votes per candidate will be calculated
+        Once each candidate’s number of votes and percentage of total votes is calculated the winner will be decided based on the greatest number of votes one candidate receives.
+        Out put will be displayed on the terminal and saved in the Election_Results in Analysis folder. 
