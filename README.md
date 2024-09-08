@@ -1,57 +1,53 @@
 # Python-Challenge
 # PYBANK
         
-        # Data importing with os
+        # The Challenge is to create a Python Script to analyze a company's financial records. The data set is in a csv file, and it has two columns. Column 1 "Date" and Column 2 "Profit/Loss"
 
-        # Define file paths
+        The Script will calculate each of the following values through Python Script.
+        * The total number of months included in the dataset
 
-        # Check if the file exists
+        * The net total amount of "Profit/Losses" over the entire period
 
-        # Open the CSV file
+        * The changes in "Profit/Losses" over the entire period, and then the average of those changes
 
-        # Read and skip the header row
+        * The greatest increase in profits (date and amount) over the entire period
 
-        # Ensure there is at least one data row
+        * The greatest decrease in profits (date and amount) over the entire period
 
-        # Initialize variables
+        The result should match the following:
 
-        # Total sum of the values
-        # Count of the number of months
-        # Total change in values for average calculation
-
-        # Highest change value
-        # Lowest change value
-        # Date of the highest change
-        # Date of the lowest change
-
-        # Process the first row
-        # Initialize the previous_row value
-        # Add the first value to the total sum
-        # Increment the count of months
-
+        Example Output should be like this:
         
-        # Iterate through the remaining rows
-
-         # Convert the current value to an integer
+        Financial Analysis
+        ----------------------------
+        Total Months: 86
+        Total: $22564198
+        Average Change: $-8311.11
+        Greatest Increase in Profits: Aug-16 ($1862002)
+        Greatest Decrease in Profits: Feb-14 ($-1825558)
         
-        # Calculate the difference between the current and previous values
+        The result should be displayed at the terminal and output in the text file.
 
-        # Update the highest and lowest changes
+        Opens the CSV file and reads it using a CSV reader
+        Skips the header row and processes each subsequent row.
+        Initializes variables:
+        (sum, count, average change, highest and lowest change).        
 
-        # Update the total sum and previous_row for the next iteration
+        # Calculate the following:
+        •	Total sum of profit/loss values.
+        •	Count of the number of months.
+        •	Average change in profit/loss values.
+        •	Greatest increase and decrease in profits, along with the corresponding dates.
+             The results will not only output on the terminal but will also save into the Financial_analysis.txt this file is saved in Analysis folder.
+        # Error checks
+        If the header row does not have data after header row it prompts error message and will exit.
+         Also, error check is on the csv file existence if the file is not it will be prompt an error message.
+        
 
-        # Calculate the average change, handle case with less than 2 months
-
-        # Prepare the output content
-
-        # Write the output content to the file
-
-        # Inform the user that the results have been written
-          
           
           
 # PYPOLL
-        Instructions
+
         The task of this challenge is to integrate a faster and accurte vote count process for a small, rural town.
 
         The Poll data file is called election_data.csv that provides information to analyze and script in Python.
@@ -82,39 +78,13 @@
           -------------------------
           Winner: Diana DeGette
           -------------------------
-        Also the final script should not only print the analysis to the terminal and export a text file with the results.
-
-        Define file paths
-        # Path to the input CSV file
-        # Path to the output text file
-        Check if the input file exists
-        # Exit the script if the file does not exist
-        Initialize variables
-        # Total number of votes
-        # Dictionary to store candidate names and their vote counts
-        Open and read the CSV file
-        # Create a CSV reader object
-        Read and skip the header row
-        Process each row in the CSV file
-        # Ensure the row has at least 3 columns
-        # Increment total vote count
-        # Get the candidate's name from the third column
-
-        # Update the candidate's vote count
-        Create the output for the results
-        prints at terminal
-        Title
-        Total Vote Result
-        writes out the result in txt file
-        Initialize variables to track the winner
-        Add each candidate's total votes and percentage to the output
-        Calculate the percentage of total votes
-        Add candidate's votes
-        prints at terminal
-        Output also in txt file
-        Determine if the current candidate has more votes than the previous winner
-        # Update the highest vote count
-        # Set the new winner
-        prints winner at terminal
-        Outputs also in txt file
-        Notify user that results have been written in txt file as well
+        Also, the final script should not only print the analysis to the terminal and export a text file with the results.
+        
+        Open and read the Election_data csv file. It should contain three columns 
+        
+        The script reads the csv and there is an error check if file does not exist the code will stop and exit.
+        Next it counts the total number of votes overall.
+        Then it counts the votes each candidate receives.
+        Then the average number of votes and percentage of total votes per candidate will be calculated
+        Once each candidate’s number of votes and percentage of total votes is calculated the winner will be decided based on the greatest number of votes one candidate receives.
+        Out put will be displayed on the terminal and saved in the Election_Results in Analysis folder. 
