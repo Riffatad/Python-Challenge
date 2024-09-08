@@ -1,21 +1,37 @@
 # Python-Challenge
 # PYBANK
         
-        # Data importing with os
+The Challenge is to create a Python Scrpit to analyze a company's financial records.The data set is in csv file and it has two columns. Column 1 "Date" and Column 2 "Profit/Loss"
 
-        # Define file paths
+We need to calculcate each of the following values through Python Script.
+* The total number of months included in the dataset
 
-        # Check if the file exists
+* The net total amount of "Profit/Losses" over the entire period
 
-        # Open the CSV file
+* The changes in "Profit/Losses" over the entire period, and then the average of those changes
 
-        # Read and skip the header row
+* The greatest increase in profits (date and amount) over the entire period
 
-        # Ensure there is at least one data row
+* The greatest decrease in profits (date and amount) over the entire period
 
-        # Initialize variables
+The result should match the following:
 
-        # Total sum of the values
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $22564198
+Average Change: $-8311.11
+Greatest Increase in Profits: Aug-16 ($1862002)
+Greatest Decrease in Profits: Feb-14 ($-1825558)
+
+The reusult should be displayed at the terminal and output in txt file.
+# The Python script import OS file and CSV file 
+# Then file path is defined  
+# Using IF comamand Error check is used to check if the file exists if yes it will move next other wise it will error that file does not exist.
+Next it reads the header and also skip the header row.
+This if command is to ensure there is atleast one data row
+Next we initialized following variables :
+       # Total sum of the values
         # Count of the number of months
         # Total change in values for average calculation
 
@@ -23,6 +39,13 @@
         # Lowest change value
         # Date of the highest change
         # Date of the lowest change
+
+Starting from the first row adding the first value to the sum and increasing counting months by 1
+The for loop 
+
+
+        
+
 
         # Process the first row
         # Initialize the previous_row value
