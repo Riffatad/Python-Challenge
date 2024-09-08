@@ -69,6 +69,14 @@ with open(budget_csv, newline='') as csv_file:
 
 
     # Prepare the output content
+    print("Financial Analysis\n")
+    print("--------------------------\n")
+    print(f"Total Months: {count}\n")
+    print(f"Total: ${sum}\n")
+    print(f"Average Change: ${average_change:.2f}\n")
+    print(f"Greatest Increase in Profits: {highest_date} (${highest})\n")
+    print(f"Greatest Decrease in Profits: {lowest_date} (${lowest})\n")
+
     output_content = (
         "Financial Analysis\n"
         "--------------------------\n"
@@ -77,6 +85,7 @@ with open(budget_csv, newline='') as csv_file:
         f"Average Change: ${average_change:.2f}\n"
         f"Greatest Increase in Profits: {highest_date} (${highest})\n"
         f"Greatest Decrease in Profits: {lowest_date} (${lowest})\n"
+        
     )
 
     # Write the output content to the file
