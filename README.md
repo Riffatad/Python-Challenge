@@ -1,5 +1,5 @@
 # Python-Challenge
-Python-Challenge (PY POLL)
+          #PYPOLL
 Instructions
 The task of this challenge is to integrate a faster and accurte vote count process for a small, rural town.
 
