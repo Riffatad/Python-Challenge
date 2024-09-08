@@ -1,7 +1,5 @@
 # Python-Challenge
 # PYBANK
-# Python-Challenge
-# PYBANK
         
 # The Challenge is to create a Python Script to analyze a company's financial records. The data set is in a csv file, and it has two columns. Column 1 "Date" and Column 2 "Profit/Loss"
 
