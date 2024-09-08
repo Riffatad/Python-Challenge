@@ -1,9 +1,11 @@
 # Python-Challenge
 # PYBANK
+# Python-Challenge
+# PYBANK
         
-The Challenge is to create a Python Scrpit to analyze a company's financial records.The data set is in csv file and it has two columns. Column 1 "Date" and Column 2 "Profit/Loss"
+# The Challenge is to create a Python Script to analyze a company's financial records. The data set is in a csv file, and it has two columns. Column 1 "Date" and Column 2 "Profit/Loss"
 
-We need to calculcate each of the following values through Python Script.
+The Script will calculate each of the following values through Python Script.
 * The total number of months included in the dataset
 
 * The net total amount of "Profit/Losses" over the entire period
@@ -16,6 +18,7 @@ We need to calculcate each of the following values through Python Script.
 
 The result should match the following:
 
+Example Output should be like this:
 Financial Analysis
 ----------------------------
 Total Months: 86
@@ -24,53 +27,24 @@ Average Change: $-8311.11
 Greatest Increase in Profits: Aug-16 ($1862002)
 Greatest Decrease in Profits: Feb-14 ($-1825558)
 
-The reusult should be displayed at the terminal and output in txt file.
-# The Python script import OS file and CSV file 
-# Then file path is defined  
-# Using IF comamand Error check is used to check if the file exists if yes it will move next other wise it will error that file does not exist.
-Next it reads the header and also skip the header row.
-This if command is to ensure there is atleast one data row
-Next we initialized following variables :
-       # Total sum of the values
-        # Count of the number of months
-        # Total change in values for average calculation
+The result should be displayed at the terminal and output in the text file.
 
-        # Highest change value
-        # Lowest change value
-        # Date of the highest change
-        # Date of the lowest change
+Opens the CSV file and reads it using a CSV reader
+Skips the header row and processes each subsequent row.
+Initializes variables:
+(sum, count, average change, highest and lowest change).        
 
-Starting from the first row adding the first value to the sum and increasing counting months by 1
-The for loop 
-
-
+# Calculate the following:
+•	Total sum of profit/loss values.
+•	Count of the number of months.
+•	Average change in profit/loss values.
+•	Greatest increase and decrease in profits, along with the corresponding dates.
+     The results will not only output on the terminal but will also save into the Financial_analysis.txt this file is saved in Analysis folder.
+# Error checks
+If the header row does not have data after header row it prompts error message and will exit.
+ Also, error check is on the csv file existence if the file is not it will be prompt an error message.
         
 
-
-        # Process the first row
-        # Initialize the previous_row value
-        # Add the first value to the total sum
-        # Increment the count of months
-
-        
-        # Iterate through the remaining rows
-
-         # Convert the current value to an integer
-        
-        # Calculate the difference between the current and previous values
-
-        # Update the highest and lowest changes
-
-        # Update the total sum and previous_row for the next iteration
-
-        # Calculate the average change, handle case with less than 2 months
-
-        # Prepare the output content
-
-        # Write the output content to the file
-
-        # Inform the user that the results have been written
-          
           
           
 # PYPOLL
