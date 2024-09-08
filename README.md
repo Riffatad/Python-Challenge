@@ -46,7 +46,7 @@ If the header row does not have data after header row it prompts error message a
           
           
 # PYPOLL
-        Instructions
+# Instructions
         The task of this challenge is to integrate a faster and accurte vote count process for a small, rural town.
 
         The Poll data file is called election_data.csv that provides information to analyze and script in Python.
@@ -77,39 +77,12 @@ If the header row does not have data after header row it prompts error message a
           -------------------------
           Winner: Diana DeGette
           -------------------------
-        Also the final script should not only print the analysis to the terminal and export a text file with the results.
-
-        Define file paths
-        # Path to the input CSV file
-        # Path to the output text file
-        Check if the input file exists
-        # Exit the script if the file does not exist
-        Initialize variables
-        # Total number of votes
-        # Dictionary to store candidate names and their vote counts
-        Open and read the CSV file
-        # Create a CSV reader object
-        Read and skip the header row
-        Process each row in the CSV file
-        # Ensure the row has at least 3 columns
-        # Increment total vote count
-        # Get the candidate's name from the third column
-
-        # Update the candidate's vote count
-        Create the output for the results
-        prints at terminal
-        Title
-        Total Vote Result
-        writes out the result in txt file
-        Initialize variables to track the winner
-        Add each candidate's total votes and percentage to the output
-        Calculate the percentage of total votes
-        Add candidate's votes
-        prints at terminal
-        Output also in txt file
-        Determine if the current candidate has more votes than the previous winner
-        # Update the highest vote count
-        # Set the new winner
-        prints winner at terminal
-        Outputs also in txt file
-        Notify user that results have been written in txt file as well
+        Also, the final script should not only print the analysis to the terminal and export a text file with the results.
+        
+Open and read the Election_data csv file. It should contain three columns 
+The script reads the csv and there is an error check if file does not exist the code will stop and exit.
+Next it counts the total number of votes overall.
+Then it counts the votes each candidate receives.
+Then the average number of votes and percentage of total votes per candidate will be calculated
+Once each candidate’s number of votes and percentage of total votes is calculated the winner will be decided based on the greatest number of votes one candidate receives.
+Out put will be displayed on the terminal and saved in the Election_Results in Analysis folder. 
